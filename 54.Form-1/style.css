@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d9afd9;
+  background-image: linear-gradient(52deg, #d9afd9 0%, #97d9e1 100%);
+}
+
+p.project-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container{
+    max-width: 500px;
+    min-height: 250px;
+    margin: 0 auto;
+    background-color: #727272;
+    padding: 50px 20px;
+    font-size: 0.7rem;
+    box-shadow: 0 3px 6px rgb(160, 160, 160);
+}
+.formWraper{
+    margin-top: 15px;
+}
+.title{
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: 1px solid rgb(105, 105, 105);
+    width: 250px;
+    margin: 0 auto;
+   
+   
+}
+.inputs{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0 4px 0 ;
+    margin-top: 10px;
+}
+.inputs input{
+    width: 100%;
+    padding: 2px;
+    border-color: rgb(87, 87, 87);
+    border-width: 0 0 1px 0 ;
+    background-color: transparent;
+    outline: 0;
+    transition: all 0.5s ease;
+
+}
+.inputs input:focus{
+    border-bottom:1px solid rgb(185, 185, 185) ;
+}
+.half{
+    width: 50%;
+}
+.mt{
+    margin-top: 25px;
+}
+
+label{
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+}
+input:placeholder-shown+label{
+    left: 0;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
+input:focus+label {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+   transition: all 0.5s ease;
+} 
